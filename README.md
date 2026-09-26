@@ -25,7 +25,7 @@ A desktop PDF toolkit with a modern graphical interface, built with **CustomTkin
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/pdf-editor.git
+git clone https://github.com/<uruj04>/pdf-editor.git
 cd pdf-editor
 pip install -r requirements.txt
 ```
@@ -96,13 +96,20 @@ python -m unittest discover -v
 
 ## Screenshots
 
+## Screenshots
+
 **Main window with page thumbnails**
 ![Main window](screenshots/main-window.png)
 
 **Split dialog**
 ![Split PDF](screenshots/split-dialog.png)
 
+**Merge PDFs**
+![Merge PDFs](screenshots/merge.png)
+
+**Extracted text**
+![Extracted text](screenshots/extracted-text.png)
 ## Author
 
 **<Your Name>** — Python Internship, Algoryx
-[LinkedIn](https://linkedin.com/in/<your-profile>) · [GitHub](https://github.com/<your-username>)
+[LinkedIn](https://linkedin.com/in/<mohd-uruj-a1207038a>) · [GitHub](https://github.com/<uruj04)
