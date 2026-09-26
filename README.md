@@ -112,4 +112,4 @@ python -m unittest discover -v
 ## Author
 
 **<Your Name>** — Python Internship, Algoryx
-[LinkedIn](https://linkedin.com/in/<mohd-uruj-a1207038a>) · [GitHub](https://github.com/<uruj04)
+[LinkedIn](https://linkedin.com/in/<mohd-uruj-a1207038a>) · [GitHub](https://github.com/<uruj04>)
