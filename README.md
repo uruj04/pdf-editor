@@ -25,7 +25,7 @@ A desktop PDF toolkit with a modern graphical interface, built with **CustomTkin
 ## Installation
 
 ```bash
-git clone https://github.com/<uruj04>/pdf-editor.git
+git clone https://github.com/uruj04/pdf-editor.git
 cd pdf-editor
 pip install -r requirements.txt
 ```
@@ -112,4 +112,4 @@ python -m unittest discover -v
 ## Author
 
 **<Your Name>** — Python Internship, Algoryx
-[LinkedIn](https://linkedin.com/in/<mohd-uruj-a1207038a>) · [GitHub](https://github.com/<uruj04>)
+[LinkedIn](https://linkedin.com/in/mohd-uruj-a1207038a) · [GitHub](https://github.com/uruj04)
