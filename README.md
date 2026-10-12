@@ -36,6 +36,25 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## Live web demo
+
+The desktop interface uses CustomTkinter, so it cannot be hosted as a web page.
+This repository also includes a browser-based Streamlit version with the same PDF
+engine. Run it locally with:
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+### Deploy to Streamlit Community Cloud
+
+1. Push this repository to GitHub.
+2. Go to [share.streamlit.io](https://share.streamlit.io/) and sign in with GitHub.
+3. Click **Create app**, select `uruj04/pdf-editor`, branch `main`, and file
+   `streamlit_app.py`.
+4. Click **Deploy**. Streamlit will give the project a public `streamlit.app` URL.
+
 1. Click **Open PDF** to load a file. Thumbnails of every page appear.
 2. Click a page thumbnail to select it (click again to deselect).
 3. Use the sidebar buttons for merge, split, rotate, delete, extract text, images-to-PDF, watermark, or password protection.
