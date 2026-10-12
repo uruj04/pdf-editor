@@ -8,7 +8,7 @@ from pathlib import Path
 from tkinter import filedialog, messagebox
 
 import customtkinter as ctk
-from PIL import ImageTk
+ # from PIL import ImageTk
 
 from . import __version__
 from .exceptions import PdfEditorError
@@ -33,7 +33,7 @@ class PdfEditorApp(ctk.CTk):
 
         self.document: PdfDocument | None = None
         self.selected_pages: set[int] = set()
-        self._thumb_refs: list[ImageTk.PhotoImage] = []  # keep refs so Tk doesn't GC them
+        self._thumb_refs: list[ctk.CTkImage] = [] # keep refs so Tk doesn't GC them
 
         self._build_layout()
         self._set_status("Open a PDF to get started.")
@@ -122,7 +122,11 @@ class PdfEditorApp(ctk.CTk):
         columns = 4
         for info in self.document.list_pages():
             image = self.document.thumbnail(info.index, max_size=THUMB_SIZE)
-            photo = ImageTk.PhotoImage(image)
+            photo = ctk.CTkImage(
+                light_image=image,
+                dark_image=image,
+                size=image.size,
+            ) 
             self._thumb_refs.append(photo)
 
             frame = ctk.CTkFrame(self.main_area, corner_radius=8)
